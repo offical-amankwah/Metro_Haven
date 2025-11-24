@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro Haven | Redefining Youth Style</title>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div id="loader">
+        <h1 class="loader-title">METRO HAVEN</h1>
+    </div>
+
+   
+    <nav class="navbar">
+        <div class="container nav-container">
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="ph ph-list"></i>
+            </button>
+
+            
+            <div class="logo">
+                <a href="#">METRO HAVEN.</a>
+            </div>
+
+            
+            <div class="nav-links">
+                <a href="#">New Arrivals</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Accessories</a>
+                <a href="#" class="">Sale</a>
+            </div>
+
+           
+            <div class="nav-icons">
+                <button><i class="ph ph-magnifying-glass"></i></button>
+                <button><i class="ph ph-heart"></i></button>
+                <button class="cart-btn" onclick="toggleCart()">
+                    <i class="ph ph-shopping-bag"></i>
+                    <span id="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+        
+       
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <a href="#">New Arrivals</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Accessories</a>
+        </div>
+    </nav>
